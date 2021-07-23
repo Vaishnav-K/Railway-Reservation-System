@@ -1,0 +1,40 @@
+<html>
+<head>
+<title>
+LOGIN PAGE
+</title>
+</head>
+<body background="img/img4.JPG">
+<?php 
+session_start();
+include("header1.php"); ?>
+<br><br>
+<br><br>
+<form  name=myForm method=POST action="loginCheck.php">
+<br>
+<br>
+<br>
+<h1 align=center style="color:white;background:black">LOGIN &nbsp &nbsp PAGE<h1/>
+<br>
+<h2 align=center style="color:#dadde6">Username &nbsp &nbsp
+<input type="text" size="30" name="user" required>
+</h2>
+<br>
+<h2 align=center style="color:#dadde6">Password &nbsp &nbsp
+<input type="password" size="30" name="pwd" required>
+</h2>
+<br>
+<br>
+<center>
+<input type=submit value=LOGIN style="height:40; width:100;">
+</center>
+<br>
+<br>
+<center>
+<a href="signup.php"><font size=5 color=#c2ffea>New &nbsp User ? &nbsp Sign&nbsp Up &nbspHere</font></a>
+</center>
+<br>
+<br>
+</form>
+</body>
+</html>
